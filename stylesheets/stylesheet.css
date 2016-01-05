@@ -13,10 +13,6 @@ body {
   color: #606c71;
 }
 
-.container {
-    /*padding: 80px;*/
-}
-
 .main-menu {
     position: fixed;
     top: 0;
@@ -112,18 +108,18 @@ body {
 }
 
 .main-menu-open .main-menu-trigger span:before {
-	-webkit-transform: translateY(0) rotate(45deg);
-	transform: translateY(0) rotate(45deg);
+	-webkit-transform: translateY(0) rotate(90deg);
+	transform: translateY(0) rotate(90deg);
 }
 
 .main-menu-open .main-menu-trigger span:after {
-	-webkit-transform: translateY(0) rotate(45deg);
-	transform: translateY(0) rotate(45deg);
+	-webkit-transform: translateY(0) rotate(90deg);
+	transform: translateY(0) rotate(90deg);
 }
 
 .main-menu-open .main-menu-trigger span {
-	-webkit-transform: translateY(0) rotate(-25deg);
-	transform: translateY(0) rotate(-25deg);
+	-webkit-transform: translateY(0) rotate(-45deg);
+	transform: translateY(0) rotate(-45deg);
 }
 
 .main-menu ul {
